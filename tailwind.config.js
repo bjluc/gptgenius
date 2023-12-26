@@ -10,5 +10,8 @@ module.exports = {
       backgroundImage: {},
     },
   },
+  daisyui: {
+    themes: ['winter', 'dracula'],
+  },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
 }
