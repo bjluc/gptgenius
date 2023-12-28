@@ -1626,7 +1626,7 @@ UNSPLASH_API_KEY=7pmB29Xi9rOWHhYpvtuc4edchzh1w0eawUjJwNAqngA
 ```js
 import TourInfo from '@/components/TourInfo'
 import { generateTourImage } from '@/utils/actions'
-import prisma from '@/utils/prisma'
+import prisma from '@/utils/db'
 import Link from 'next/link'
 import Image from 'next/image'
 import axios from 'axios'

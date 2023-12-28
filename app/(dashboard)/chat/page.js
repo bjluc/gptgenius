@@ -4,7 +4,7 @@ import {
   HydrationBoundary,
   QueryClient,
 } from '@tanstack/react-query'
-export default async function ChatPage() {
+const ChatPage = () => {
   const queryClient = new QueryClient()
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
@@ -12,3 +12,4 @@ export default async function ChatPage() {
     </HydrationBoundary>
   )
 }
+export default ChatPage
